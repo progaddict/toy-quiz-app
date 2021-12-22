@@ -1,0 +1,25 @@
+### get user
+GET http://127.0.0.1:8080/api/v1/user/1
+
+
+
+### add quiz
+
+POST http://127.0.0.1:8080/api/v1/user/1/quiz
+Content-Type: application/json
+
+{
+    "name": "test quiz 1",
+    "description": "test quiz 1"
+}
+
+
+### upvote quiz
+
+POST http://127.0.0.1:8080/api/v1/user/1/quiz/1/vote
+
+### rm vote quiz
+
+DELETE http://127.0.0.1:8080/api/v1/user/1/quiz/1/vote
+
+# https://scout24.zoom.us/j/92722370113?from=addon 
